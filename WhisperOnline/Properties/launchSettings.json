@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WhisperOnline": {
+      "commandName": "Project",
+      "commandLineArgs": "--file \"C:\\Users\\pbelanger\\Videos\\OpenShot\\2025-02-28 - HoloMD Demo\\Demo avec voix_outputs\\Demo avec voix.m4a\"\r\n--response-format srt"
+    }
+  }
+}
