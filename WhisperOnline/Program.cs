@@ -167,6 +167,8 @@ namespace WhisperOnline
             }
 
             using var httpClient = new HttpClient();
+            // Set timeout to maximum value to allow for long-running transcriptions
+            httpClient.Timeout = System.Threading.Timeout.InfiniteTimeSpan;
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", actualApiKey);
 
             using var formContent = new MultipartFormDataContent();
